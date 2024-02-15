@@ -23,7 +23,7 @@ labels = {'x' : 'Results', 'y' : 'Frequency of Result'}
 fig = px.bar(x = poss_results, y = frequencies, title = title, labels = labels)
 fig.update_layout(xaxis_dtick = 1)
 # If you want to save an html file of the chart
-# fig.write_html('dice_visual_d6.html')
+# fig.write_html('dice_visual_two_d6.html')
 fig.show()
     
 # print(frequencies)
